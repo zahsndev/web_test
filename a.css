@@ -1,0 +1,142 @@
+
+@font-face {
+  font-family: font1;
+  src: url(Tajawal-Regular.ttf);
+}
+
+@font-face {
+  font-family: font2;
+  src: url(Almarai-Regular.ttf);
+}
+
+@font-face {
+  font-family: font3;
+  src: url(Cairo-VariableFont_wght.ttf);
+}
+
+/*html****************************************/
+html{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color: #ffffff;
+  margin: auto;
+  padding: 0px;
+} 
+/*body****************************************/
+body {
+  /*background-color: #A9A9A9;*/
+    padding: 0px;
+  width: 1024px;
+  max-width: 800px;
+  min-height: 800px;
+  font-family: font1;
+    color: #000000;
+}
+
+body header img{
+  width: 800px;
+  height: 100px;
+  background-color: yellow;
+
+}
+
+/*section****************************************/
+body section header{ 
+}
+
+body section header h2{ 
+  /*background-color: #d6dbdf;*/
+  margin: auto;
+  padding: 0px;
+  font-family: font3;   
+    color: #023020;  
+}
+
+body section header p{ 
+  margin: 15px;
+  padding: 0px;
+    font-family: font1;  
+  font-weight: bold;
+  color: #001a33;
+}
+.section
+{
+  box-shadow: 5px 5px grey;
+  border-radius: 25px;
+  border: 2px solid #dcdcdc ;
+  padding: 10px;
+  margin: 10px;
+}
+.radio
+{
+  box-shadow: 1px 1px grey;
+  border-radius: 1px;
+  cursor: pointer;
+}
+.button {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border: 1px dotted black ; 
+  background-color: #d6dbdf  ;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  box-shadow: 3px 3px grey;
+  border-radius: 15px;
+}
+
+body section div{
+
+}
+body section div p{
+  font-weight: bold;
+
+}
+body section div input{
+
+}
+
+
+section#dropZone{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color: #d6dbdf;
+  margin: auto;
+  border: 3px solid green;
+  padding: 0px;
+}
+section#dropZone div{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width: 160px;
+  height: 160px;
+  border: 1px outset  #d9d9d9;
+  margin: 5px;
+  background-color: #d9d9d9;
+  font-size: 22px;
+  text-align: center;
+  font-family: font3; 
+  color: #737373;  
+}
+section#dropZone img {
+  width: 30px;
+  height:30px;
+  border: 1px solid #eeedf8;
+  display: none;
+  //opacity: 0;
+}
+
+
+section#result{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+section#resultZone div{
+  /*border: 1px dotted black ;   */
+}
